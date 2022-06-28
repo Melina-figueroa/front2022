@@ -1,0 +1,23 @@
+p{
+    color: black;
+    font-size: 50;
+    background-color: bisque;
+}
+h1{
+    color: palevioletred;
+}
+    
+.violeta {
+    color: rgb(132, 0, 255);
+    background-color: bisque;
+    text-align: center;
+}
+
+#parrafoPrincipal {
+    color: black;
+text-align: left;
+}
+
+#identif {
+    color: blueviolet;
+}
