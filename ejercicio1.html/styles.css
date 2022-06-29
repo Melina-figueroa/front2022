@@ -1,21 +1,61 @@
-p{
-    color: black;
-    font-size: 50;
-    background-color: bisque;
-    text-align: justify;
+#titulo {
+    color: blueviolet;
+    background-color: beige;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subT{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#parrafoPrincipal {
+    color: blueviolet;
+    background-color: beige;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    .subPar{
+    color: blueviolet;
+    background-color: beige;
+    font-size: 20px;
+    text-align: left;
 }
     
-.brown {
+.marron {
     color: brown;
     background-color: violet;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.img{
+    width: 65%;
+    height: auto;
+}
+
+.ul {
+  list-style: circle;
+  color: blue;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
-#parrafoPrincipal {
-    color: black;
-text-align: left;
+.ol{
+    list-style: circle;
 }
 
-#identif {
+.list{
     color: blueviolet;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
