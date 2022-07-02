@@ -3,39 +3,39 @@
     background-color: bisque;
     border: 3px solid rgb(105, 48, 105);
     width: auto;   
-    height: 100px;
+    height: auto;
     margin: 50px;
     margin-top: 5px;
+    padding-left: 4px;
 }
- 
-.parrafo{
-    font-family: 'Times New Roman', Times, serif;
-    color: palevioletred;
-    font-size: 20px;
-    text-align: start;
-}
-.cabecera{
+.boxCabecera{
     font-family: 'Times New Roman', Times, serif;
     color: palevioletred;
     font-size: 30px;
     text-align: center;
-   
 }
-
-.subtitulo{
+.boxSubtitulo{
     font-family: 'Times New Roman', Times, serif;
     color: palevioletred;
     font-size: 25px;
     text-align: center;
-
 }
+.boxParrafo{
+    width: 100px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+    font-size: 20px;
+    text-align: left;
+}
+
 
 .cuerpo{
 
 }
 
 
-.imagen{
-    height: 200px;
-   margin-left: 300px;
+.boxImagen{
+    display: flexbox;
+     height: 200px;
 }
