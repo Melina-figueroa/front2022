@@ -1,0 +1,19 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+}
+.padre2{
+    display:flex;
+}
+.div1{
+    border-style: solid;
+    border-color: palegreen;
+}
+.div2{
+    border-style: solid;
+    border-color: plum;
+}
+.div3{
+border-style: solid;
+border-color: palevioletred;
+}
