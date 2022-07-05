@@ -1,6 +1,7 @@
 .padre{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .padre2{
     display:flex;
