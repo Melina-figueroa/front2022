@@ -1,42 +1,135 @@
-.padre {
+body{
+    background-color: pink;
+}
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1% ;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: purple;
-    display: flexbox;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin: 0%;
-    background-color: palegoldenrod;
+    padding: 2%;
+    border: 5px solid purple;
 }
 
-.div1 {
-    border-style: solid;
-    font-style: italic;
+.encabezado {
+    width: 100%;
     margin: 1%;
+    padding: 1%;
+    text-align: left;
+    font-style: normal;
+    border: 5%;
+    border-radius: 10%;
+    border: solid purple;
+
 }
 
-.div2 {
+.imagenLogo {
+    width: 10%;
+    margin: 0% auto;
+    padding: 1%;
+    padding-left: 10%;
+    padding-top: 5%;
+    justify-content: left;
+
+}
+
+.menu {
+    width: auto;
+    text-shadow: 35%;
+    align-self: stretch;
+    text-align: right;
+    margin: 1%;
+    padding: -1%;
+    padding-left: 60%;
+}
+
+.menu2 {
+    width: auto;
+    text-shadow: 35%;
+    align-items: stretch;
+    text-align: right;
+    margin: 1%;
+    padding: -1%;
+    padding-left: 60%;
+
+
+}
+
+.subtitulo {
+    width: 65%;
+    margin: 1%;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 85%;
+    justify-self: flex-start;
+    border: 5%;
+    border-radius: 15%;
+    border-color: purple;
     color: darkgray;
-    margin: 1%;
-
 }
 
-.div3 {
+.introduccion {
+    width: 55%;
+    text-align: left justify;
+    padding: 1%;
+    margin: auto;
+    margin-right: 95%;
     font-style: italic;
-    margin: 1%;
+}
+.resaltar{
+    color: purple;
+    font-style: initial oblique;
+    text-shadow: 30%;
 }
 
-.div4 {
-    font-style: inherit;
-    margin: 1%;
+p {
+    text-align: left;
 }
 
-.padre2 {
-    display: flexbox;
+.imagen1 {
+    align-self: flex-end;
+    width: 15%;
+    height: auto;
+    margin: 0%;
+    margin-left: 25%;
+    margin-bottom: 70%;
+    margin-top: -25%;
 }
 
-.imagen {
-    display: flexbox;
-    flex-direction: row-reverse;
-    justify-content: center;
-    width: 30%;
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    padding: 1%;
+}
+
+.parrafo-principal {
+    text-align: left;
+    width: 50%;
+    margin: 0%;
+    font-style: oblique;
+    padding: 3%;
+}
+.div-izq{
+    
+    text-align: left;
+}
+.div-centro{
+    text-align: center;
+}
+.div-der{
+    text-align: right;
+}
+
+.imagen2 {
+    justify-content: flex-end;
+    width: 50%;
 }
