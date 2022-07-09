@@ -153,4 +153,41 @@ body {
     margin-top: -25%;
     margin-bottom: 5%;
 }
-
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: -5%;
+    justify-content: flex-end;
+    align-items: left;
+    align-self: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    background-color: gray;
+    padding: 2%;
+    border: 5px solid purple;
+}
+.pie-pag{
+    width: auto;
+    height: auto;
+    color: purple;
+    align-content: left; 
+    font-style: normal;
+}
+.elem{
+    width: 30%;
+    color: blue;
+    text-shadow: 35%;
+    text-align: start;
+    margin: 1%;
+    padding: -1%;
+}
+ul{
+    width: 15%;
+    text-align: start;
+    color: purple;
+    font-style: italic;
+    list-style: square;
+   
+}
