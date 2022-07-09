@@ -1,11 +1,12 @@
-body{
+body {
     background-color: pink;
 }
+
 .contenedor1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 1% ;
+    margin: 1%;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
@@ -59,69 +60,97 @@ body{
 
 }
 
-.subtitulo {
-    width: 65%;
-    margin: 1%;
-    padding: 5%;
-    color: darkgray;
-}
-
-.introduccion {
-    width: 55%;
-    text-align: left center;
-    padding: 1%;
-    margin: auto;
-    margin-right: 95%;
-    font-style: italic;
-}
-.resaltar{
-    color: purple;
-    font-style: initial oblique;
-    text-shadow: 30%;
-}
-
-
-.imagen1 {
-    text-align: center;
-    width: 15%;
-    height: auto;
-    margin: 0%;
-    margin-left: 25%;
-    margin-bottom: 70%;
-    margin-top: -25%;
-}
-
 .contenedor2 {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: flex-start;
+    justify-self: center;
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1%;
+    padding-top: 2%;
 }
 
-.parrafo1 {
-    text-align: left justify;
-    width: 60%;
-    margin: 0%;
-    font-style: oblique;
-    padding: 3%;
-}
-.div-izq{
+.subtitulo {
+    width: 65%;
+    margin: 1%;
+    margin: -4%;
     text-align: start;
-    width: 45%;
-    margin: -1%
-    color: purple;
-    text-align: left;
+    padding: 5%;
+    color: rgb(99, 92, 92);
 }
-.div-centro{
+
+.resaltar {
+    color: magenta;
+    font-style: italic;
+    text-shadow: 30%;
+}
+
+.introduccion-izq {
+    color: purple;
+    width: auto;
+    text-align: start;
+    padding: 1%;
+    margin: auto;
+    font-style: normal;
+}
+
+.div-centro {
+    width: auto;
     text-align: center;
+    margin-top: 5%;
+    padding-right: 40%;
+}
+
+.imagen1 {
+    width: 40%;
+    height: auto;
+    margin: 1%;
+}
+
+
+.introduccion-der {
+    color: purple;
+    width: auto;
+    text-align: start;
+    padding: 1%;
+    padding-left: 65%;
+    margin: auto;
+    font-style: normal;
+    margin-top: -30%;
+}
+
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    justify-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+ 
+}
+
+
+.introduccion-izq2 {
+    color: purple;
+    width: auto;
+    text-align: left;
+    font-style: normal;
 }
 .div-der{
+    width: auto;
     text-align: right;
+    margin: auto;
+    margin-top: 5%;
+    padding-right: 22%;
 }
 
-.imagen2 {
-    justify-content: flex-end;
-    width: 50%;
+.imagen3{
+    width: 250%;
+    height: auto;
+    margin-top: -25%;
+    margin-bottom: 5%;
 }
+
