@@ -8,14 +8,16 @@ border: 5px yellowgreen solid;
 .fila1{
     color: cornflowerblue;
 }
-.borde{
+/* .borde{
     border: 1px rgb(20, 50, 220) solid;
-}
+ } */
 .encabezado{
     text-align: center;
     font-size: large; 
     color: cornflowerblue;
     font-style: normal oblique;
+    margin: -1%;
+    padding-top: 10%%;
 }
 .parrafo{
 color: blue;
@@ -31,4 +33,10 @@ color: blue;
     width: 15%;
     padding-block: 1%;
     margin-left: 40%;
-} 
+}
+
+.margen{
+    padding-block-end: 1%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
