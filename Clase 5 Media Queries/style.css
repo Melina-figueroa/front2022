@@ -1,13 +1,24 @@
-    .contenedor {
-        display: flex-end;
+    @media  screen and(min-width:600px){
+        .flex-contenedor{
+            background-color: blue;
+        }
+        main{
+            display: none;
+        }
+    }
+    .flex-a{
+display: none;
+    }
+      
+    .flex-contenedor {
+        display: flex;
         flex-direction: row;
         width: 100%;
-       flex-wrap: wrap; 
+        flex-wrap: wrap; 
     }
 
-    .fixture {
+    .flex-fixture {
         flex-basis: 100%;
-        margin: auto;
         margin-bottom: 1%;
         padding: 1%;
         background-color: white;
@@ -15,23 +26,12 @@
 
     }
 
-    .fila1{
+    .flex-fila1{
         display: inline;
-        width: auto;
-        padding: 5%;
-        padding-left: 40%; 
+        align-items: center;
+        padding: 40%;
         padding-top: 1%;
         border: 2px black solid;
-    }
-    .ocultarA{
-        display: none;
-    }
-.div-aux{
-    display: inline;
-    flex-basis: 50%;
-    margin: 10%;
-        padding: 1%;
-        padding-left: 12%;
     }
 
     .footer {
@@ -44,8 +44,4 @@
     }
 
 
-    @media only screen and(max-width:660px) {
-.ocultarA{
-    display: none;
-}
-    }
+    
