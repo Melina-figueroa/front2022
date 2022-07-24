@@ -16,4 +16,4 @@ function mostrar(){
     apellido = inputApellido.value;
     edad = inputEdad.value;
     alert("Bienvenid@ " + nombre + " " + apellido+ " " + edad+" años");
-}
+} 
