@@ -1,8 +1,8 @@
 "use strict";
 let btn_enviar = document.getElementById("btn_enviar");
-btn_enviar.addEventListener("click",mostrar);
+btn_enviar.addEventListener("click", mostrar);
 
-function mostrar(){
+function mostrar() {
     let nombre = "anonimo";
     let inputNombre = document.getElementById("inputNombre");
 
@@ -15,5 +15,5 @@ function mostrar(){
     nombre = inputNombre.value;
     apellido = inputApellido.value;
     edad = inputEdad.value;
-    alert("Bienvenid@ " + nombre + " " + apellido+ " " + edad+" años");
+    alert("Bienvenid@ " + nombre + " " + apellido + " " + edad + " años");
 } 
