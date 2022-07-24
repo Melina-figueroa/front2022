@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <!-- FILA 1 -->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="https://www.nationalgeographic.com.es/">+Info</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.google.com/">Busqueda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.smn.gob.ar/">Clima</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Redes</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="encabezado borde">
+                    <h1>Curiosidades del mundo animal</h1>
+                </div>
+                <div> <!--Logo delfin-->
+                    <img src="imagenBoostrap/logo.png" class="img-fluid imagen" alt="Delfin en el oceano">
+                </div>
+            </div>
+            <div class="col-sm-4"> <!--Lado derecho, Botón desplegable-->
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle tamBotones" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      +Info sobre delfines
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="https://www.dolphinaris.com">Nadar con delfines</a></li>
+                      <li><a class="dropdown-item" href="https://www.aquariumcostadealmeria.com">Que comén los delfines</a></li>
+                      <li><a class="dropdown-item" href="https://www.nationalgeographic.com.es">Como se reproducen los delfines</a></li>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-warning tamBotones"><!--Botón inferior-->
+                    <a class="dropdown-item" href="https://www.dolphinaris.com">En cautiverio</a>
+  
+                </button>            
+                </div>
+            <!-- FILA 2 -->
+            <div class="row margen">
+                <div class="col-sm">
+                    <!--DIV IZQUIERDO-->
+                    <div>
+                        <h1 class="titulo">Delfines</h1><!--Titulo izquierdo-->
+                        <!--TITULO-->
+                    </div>
+                    <div class="fila1"><!--div2 izquierdo-->
+                        <p>Los delfines son un tipo de mamíferos cetáceos pertenecientes a la familia Delphinidae.
+                            Pueden
+                            vivir más de 30 años en cautividad y tienen una longitud de 3,5 metros aproximadamente. En
+                            la
+                            naturaleza, estos nadadores elegantes pueden alcanzar velocidades de más de 30 kilómetros
+                            por
+                            hora. Durante sus desplazamientos surgen a menudo a la superficie del mar para respirar,
+                            haciéndolo una media de dos o tres veces por minuto. Viajan en grupos sociales y se
+                            comunican
+                            entre sí por un complejo sistema de chirridos y silbidos que del mismo modo les sirve para
+                            ecolocalizar a sus presas. Pueden producir hasta 1.000 "ruidos de clic" por segundo. Estos
+                            sonidos viajan bajo el agua hasta que encuentran objetos, luego regresan a sus remitentes de
+                            delfines, revelando la ubicación, tamaño y forma de su objetivo. Se trata de animales muy
+                            inteligentes que no dejan de sorprender a los científicos pues han mostrado capacidades de
+                            aprendizaje y cognición muy superiores a las de otras especies. </p>
+                    </div>
+                </div>
+                <div class="col-sm centro">
+                    <!--DIV CENTRO-->
+                    <div class="fila1">
+                        <p>Se encuentran en los océanos tropicales y otras aguas cálidas de todo el mundo. Antaño fueron
+                            cazados extensamente por su carne y grasas usadas en lámparas de aceite y para cocinar. Hoy
+                            en
+                            día, la pesca del delfín se encuentra muy limitada, no obstante los delfines siguen
+                            amenazados
+                            por la pesca comercial de otras especies como el atún, y pueden quedar mortalmente enredados
+                            en
+                            redes y otros equipos de pesca.</p>
+                        <div>
+                            <img src="imagenBoostrap/delfin.jpg" class="img-fluid" alt="Delfín en el agua">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <!--DIV DERECHO-->
+                    <div class="fila1">
+                        <div class="titulo">
+                            <h2>El hogar de los delfines</h2>
+                        </div>
+                        <p class="divPadd">El arrecife de Sataya en el Mar Rojo, también conocido como el hogar o el arrecife de los
+                            delfines, es uno de los mejores lugares del mundo para bucear con estos cetáceos salvajes.
+                            Se
+                            trata de hecho del arrecife más grande del sistema Fury Shoals, la famosa zona de buceo
+                            frente a
+                            Hamata, en el sur de Egipto, donde es conocida como Sha’ab Sataya.</p>
+                        <div>
+                            <img src="imagenBoostrap/delfines.nadando.jpg" class="img-fluid" alt="Grupo de delfines">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- FILA 3 -->
+                    <div class="col-sm-8">
+                        <!--DIV INFERIOR DERECHO-->
+                        <div class="fila1">
+                            <div class="titulo">
+                                <h2>10 COSAS QUE (PROBABLEMENTE) NO SABÍAN DE LOS Delfines
+                                </h2>
+                            </div>
+                            <div class="subTitulo">
+                                <p>El mundo de los delfines ocupa una gran parte del colectivo cultural: desde que
+                                    si son de los animales más inteligentes hasta que si tienen un nivel de
+                                    consciencia más elevado.
+                                    Unos mitos, otros realidades.
+                                    La verdad es que estos animales son particularmente interesantes, por lo que
+                                    quisimos hacer una lista de datos que nos llamaron la atención al conocerlos un
+                                    poco más a fondo:.</p>
+                            </div>
+                            <div>
+                                <img src="imagenBoostrap/delfin.riendo.jpg" class="img-fluid" alt="Delfin riendo">
+                            </div>
+                            <div>
+                                <ol reversed>
+                                    <li>El período de gestación es de entre 12 y 13 meses. Ok, no empezamos con el dato
+                                        más interesante del mundo.</li>
+                                    <li>Igual que en otras especies (incluidos los humanos) hay un sistema jerárquico
+                                        muy
+                                        definido y estricto entre los delfines. Esto los vuelve territoriales y
+                                        competitivos, ya que así es como se define esta jerarquía.</li>
+                                    <li>Cada delfín tiene su propio tono para comunicarse, de esta manera pueden
+                                        identificar quién es quién, además de que
+                                        dentro de esos “silbidos” se han detectado nombres para cada uno.</li>
+                                    <div>
+                                        <img src="imagenBoostrap/delfin.agua.jpg" class="img-fluid"
+                                            alt="Delfin en el oceano">
+                                    </div>
+                                    <li>Lo delfines nacen con pelo (!!), pero lo pierden al poco tiempo de haber nacido.
+                                        Lo tienen en la parte superior de su mandíbula.</li>
+                                    <li>Es común que haya parteras que ayudan a las mamás delfines a parir. Llegando al
+                                        nivel de ayudar a jalar al bebé para que salga.</li>
+                                    <li>Tienen 2 estómagos: uno donde guardan comida y otro donde hacen digestión. Así
+                                        que
+                                        los delfines sí pueden decir que tienen espacio para el postre.</li>
+                                    <li>Tienen la habilidad de sanar rápidamente, gracias a que su piel y grasa tienen
+                                        propiedades antibacteriales.</li>
+                                    <li>Los delfines tienen entre 80 y 100 dientes que les sirven también como antena al
+                                        recibir las señales de ecolocalización de otros delfines.</li>
+                                    <li>En verdad disfrutan del sexo. Son de los pocos animales salvajes que tienen
+                                        relaciones sin buscar procrear y sólo por el gusto de hacerlo.</li>
+                                    <li>Pueden dormir usando solamente la mitad de su cerebro, para poder usar la otra
+                                        mitad para estar alerta de amenazas.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="imagenBoostrap/delfin.agua.jpg" class="img-fluid" alt="Delfin en el oceano">
+                        </div>
+                        <div class="row">
+                            <div class="fila1">
+                                <div class="subTitulo">
+                                    <p>Los delfines son de los animales favoritos de muchísimas personas y no
+                                        dudamos que después de conocer estos datos, ese conteo haya subido bastante,
+                                        y eso que dejamos muchos datos fuera, pero siempre puede haber una segunda
+                                        parte…
+                                    </p>
+                                </div>
+                                <div>
+                                    P.D: No naden con delfines, por favor. Ni vayan a acuarios. No está bien.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- FILA 4 -->
+                <div class="row">
+                    <div class="col-sm">
+                        <p>Información extraída de:
+                            <ul>
+                                <li><a href="http://www.worldanimalprotection.cr/etapas-sufrimiento-delfines-cautiverio-turismo-#:~:text=Los%20delfines%20cautivos%20pueden%20vivir,el%20momento%20de%20su%20muerte.">worldanimalprotection</a></li>
+                            <li><a href="https://soyfanimal.com/10-cosas-que-probablemente-no-sabias-de-los-delfines/">soyfanimal</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p><a href="https://soyfanimal.com"> +Info</a></p>
+                    </div>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>

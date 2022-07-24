@@ -1,0 +1,46 @@
+@media only screen and (min-width: 600px) { /* Umbral de cambio */  
+        .body {
+        background-color:paleturquoise;
+        border: 5px yellowgreen solid;
+        }
+        .titulo{
+            color: blue;
+            padding: 5%;
+        }
+        .fila1{
+            color: cornflowerblue;
+        }
+        .encabezado{
+            text-align: center;
+            font-size: large; 
+            color: cornflowerblue;
+            font-style: normal oblique;
+            margin: -1%;
+            padding-top: 10%%;
+        }
+        .subTitulo{
+            font-size: auto;
+            font-style: oblique;
+        }
+         ol {
+           color: darkblue;
+            }
+           .imagen{
+            width: 15%;
+            padding-top: 10%;    
+            margin-left: 40%;
+        }
+        
+        .margen{
+        padding-top: 10%;
+        }
+        .tamBotones{
+            margin: 5%;
+            padding: 1%;
+        }
+        .centro{
+            padding-top: 9%;
+        }
+        
+    }
+    }

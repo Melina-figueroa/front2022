@@ -1,0 +1,193 @@
+body {
+    background-color: pink;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1%;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    padding: 2%;
+    border: 5px solid purple;
+}
+
+.encabezado {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    font-style: normal;
+    border: 5%;
+    border-radius: 10%;
+    border: solid purple;
+
+}
+
+.imagenLogo {
+    width: 10%;
+    margin: 0% auto;
+    padding: 1%;
+    padding-left: 10%;
+    padding-top: 5%;
+    justify-content: left;
+
+}
+
+.menu {
+    width: auto;
+    text-shadow: 35%;
+    align-self: stretch;
+    text-align: right;
+    margin: 1%;
+    padding: -1%;
+    padding-left: 60%;
+}
+
+.menu2 {
+    width: auto;
+    text-shadow: 35%;
+    align-items: stretch;
+    text-align: right;
+    margin: 1%;
+    padding: -1%;
+    padding-left: 60%;
+
+
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-self: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+}
+
+.subtitulo {
+    width: 65%;
+    margin: 1%;
+    margin: -4%;
+    text-align: start;
+    padding: 5%;
+    color: rgb(99, 92, 92);
+}
+
+.resaltar {
+    color: magenta;
+    font-style: italic;
+    text-shadow: 30%;
+}
+
+.introduccion-izq {
+    color: purple;
+    width: auto;
+    text-align: start;
+    padding: 1%;
+    margin: auto;
+    font-style: normal;
+}
+
+.div-centro {
+    width: auto;
+    text-align: center;
+    margin-top: 5%;
+    padding-right: 40%;
+}
+
+.imagen1 {
+    width: 40%;
+    height: auto;
+    margin: 1%;
+}
+
+
+.introduccion-der {
+    color: purple;
+    width: auto;
+    text-align: start;
+    padding: 1%;
+    padding-left: 65%;
+    margin: auto;
+    font-style: normal;
+    margin-top: -30%;
+}
+
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    justify-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+ 
+}
+
+
+.introduccion-izq2 {
+    color: purple;
+    width: auto;
+    text-align: left;
+    font-style: normal;
+}
+.div-der{
+    width: auto;
+    text-align: right;
+    margin: auto;
+    margin-top: 5%;
+    padding-right: 22%;
+}
+
+.imagen3{
+    width: 250%;
+    height: auto;
+    margin-top: -25%;
+    margin-bottom: 5%;
+}
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: -5%;
+    justify-content: flex-end;
+    align-items: left;
+    align-self: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    background-color: gray;
+    padding: 2%;
+    border: 5px solid purple;
+}
+.pie-pag{
+    width: auto;
+    height: auto;
+    color: purple;
+    align-content: left; 
+    font-style: normal;
+}
+.elem{
+    width: 30%;
+    color: blue;
+    text-shadow: 35%;
+    text-align: start;
+    margin: 1%;
+    padding: -1%;
+}
+ul{
+    width: 15%;
+    text-align: start;
+    color: purple;
+    font-style: italic;
+    list-style: square;
+   
+}
