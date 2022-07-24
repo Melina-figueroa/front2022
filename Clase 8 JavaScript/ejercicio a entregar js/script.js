@@ -1,6 +1,6 @@
 "use strict";
-let btn_datos = document.getElementById("btn-datos");
-btn_datos.addEventListener("click",mostrar);
+let btn_enviar = document.getElementById("btn_enviar");
+btn_enviar.addEventListener("click",mostrar);
 
 function mostrar(){
     let nombre = "anonimo";
