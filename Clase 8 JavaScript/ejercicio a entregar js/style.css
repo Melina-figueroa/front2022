@@ -2,21 +2,21 @@ body{
     background-color: palevioletred;
 }
 .contenedor{
-    position: relative;
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 .contenedor title{
     display: inline;
-    padding-left: 35%;
-    width: 40%;
+    text-align: center; 
     color: blue;
     }
  .contenedor form{
-    position: absolute;
-    top: 50%;
+    display: inline-block;
+    order: -1;
     padding-top: 10%;
  }
     
