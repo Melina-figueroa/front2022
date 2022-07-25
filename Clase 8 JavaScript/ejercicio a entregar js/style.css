@@ -1,34 +1,53 @@
 body{
     background-color: palevioletred;
 }
-.contenedor{
+.contenedor-flex{ /*Contenedor flex*/
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding: 5%;
+    justify-content:flex-start;
+    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.contenedor title{
-    display: inline;
-    text-align: center; 
+
+.contenedor-flex title{ /*items flex*/
+    display: flex;
+    flex-direction: auto;
+    /* align-self: center; */
+    padding: 1%;
+    margin-bottom: 50%;
+    margin-top: auto;
     color: blue;
+    background-color: beige;
     }
- .contenedor form{
-    display: inline-block;
+ .contenedor-flex form{ /*items flex*/
+    display: flex;
+    flex-direction: column;
     order: -1;
-    padding-top: 10%;
+    margin: auto;
+    margin-top: 12%;
+    padding-top: auto;
+    border-color: purple;
+    border-radius: 10%;
+    background-color: rgb(121, 190, 199);
+
  }
     
-.contenedor label{
-    display: block;
-    padding-top: 2%;
+.contenedor-flex label{ /*items flex*/
+    display: flex;
+    /* align-self: ; */
+    padding-top: 1%;
     width: 15%;
     color: rgb(2, 46, 129);
 }
-.contenedor input{
-    background-color: rgb(135, 135, 240);
+.contenedor-flex input{ /*items flex*/
+    color: rgb(182, 4, 63);
+    font-style: normal;
+    background-color: rgb(144, 144, 197);
 }
-.hijo{
-    margin: 0%;
+.contenedor-flex button{
+    background-color: coral;
+    border-color: purple;
+    font-family: cursive;
+    font-style: oblique;
 }
