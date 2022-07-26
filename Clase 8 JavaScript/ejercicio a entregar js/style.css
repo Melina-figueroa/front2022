@@ -1,39 +1,54 @@
-body {
+body{
     background-color: palevioletred;
 }
-
-.contenedor {
-    position: relative;
+.contenedor-flex{ /*Contenedor flex*/
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-.contenedor title {
-    display: inline;
-    padding-left: 35%;
-    width: 40%;
+.contenedor-flex title{ /*items flex*/
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin-left: 20%;
+    margin-bottom: 40%;
+    margin-top: auto;
     color: blue;
-}
+    background-color: beige;
+    }
+ .contenedor-flex form{ /*items flex*/
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    order: -1;
+    margin: 1%;
+    margin-top: 10%;
+    margin-bottom: auto;
+    padding-top: 1%;
+    border-color: purple;
+    border-radius: 10%;
+    background-color: rgb(121, 190, 199);
 
-.contenedor form {
-    position: absolute;
-    top: 50%;
-    padding-top: 10%;
-}
-
-.contenedor label {
-    display: block;
-    padding-top: 2%;
+ }
+    
+.contenedor-flex label{ /*items flex*/
+    display: flex;
+    padding-top: 1%;
     width: 15%;
     color: rgb(2, 46, 129);
 }
-
-.contenedor input {
-    background-color: rgb(135, 135, 240);
+.contenedor-flex input{ /*items flex*/
+    color: rgb(182, 4, 63);
+    font-style: normal;
+    background-color: rgb(144, 144, 197);
 }
-
-.hijo {
-    margin: 0%;
+.contenedor-flex button{
+    background-color: coral;
+    border-color: purple;
+    font-family: cursive;
+    font-style: oblique;
 }
