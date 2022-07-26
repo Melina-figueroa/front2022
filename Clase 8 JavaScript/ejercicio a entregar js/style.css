@@ -13,7 +13,6 @@ body{
 .contenedor-flex title{ /*items flex*/
     display: flex;
     flex-direction: auto;
-    /* align-self: center; */
     padding: 1%;
     margin-bottom: 50%;
     margin-top: auto;
@@ -35,7 +34,6 @@ body{
     
 .contenedor-flex label{ /*items flex*/
     display: flex;
-    /* align-self: ; */
     padding-top: 1%;
     width: 15%;
     color: rgb(2, 46, 129);
