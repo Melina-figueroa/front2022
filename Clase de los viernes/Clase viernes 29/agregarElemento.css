@@ -1,14 +1,17 @@
 .borde{
-    border: solid black;
+    border: solid peru;
+}
+.container-fluid{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: peru;
 }
 h1{
-    color: red;
+    color: plum;
     background-color: bisque;
     text-align: center;
 }
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: palevioletred;
 }
 ol{
     background-color: beige;
