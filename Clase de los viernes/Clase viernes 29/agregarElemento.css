@@ -1,27 +1,33 @@
-.borde{
+.borde {
     border: solid peru;
 }
-.container-fluid{
+
+.container-fluid {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: peru;
 }
-h1{
+
+h1 {
     color: plum;
     background-color: bisque;
     text-align: center;
 }
-h2{
+
+h2 {
     color: palevioletred;
 }
-ol{
+
+ol {
     background-color: beige;
     width: 30%;
     font-size: 18px;
 }
-.lista{
+
+.lista {
     background-color: coral;
 }
-.parrafo{
+
+.parrafo {
     background-color: goldenrod;
-    
+
 }

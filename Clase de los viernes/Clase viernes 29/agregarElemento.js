@@ -1,20 +1,22 @@
 "use strict"
-let botonLista = document.getElementById("botonLista");
-let lista = document.getElementById("lista");
-let inputLista = document.getElementById("inputLista");
+let botonLista = document.getElementById("botonLista"); //boton lista
+botonLista.addEventListener("click",agregarElemento);
 
 //Esta funcion agrega un elemento nuevo a la lista//
-function agregarElemento(){
-let elemento = document.createElement("li");
-elemento.innerHTML = inputLista.value;
-lista.appendChild(elemento);
+function agregarElemento() {
+    let inputLista = document.getElementById("inputLista");
+    let lista = document.getElementById("lista");
+    let elemento = document.createElement("li");
+    elemento.innerHTML = inputLista.value;
+    lista.appendChild(elemento);
 }
 
 //aca empieza el div parrafo//
 let botonParrafo = document.getElementById("botonParrafo");
+botonParrafo.addEventListener("click",agregarParrafo);
 
 //Esta funcion agrega un nuevo elemento al parrafo//
-function agregarParrafo(){
+function agregarParrafo() {
     let divParrafo = document.getElementById("divParrafo");
     let parrafo = document.createElement("p");
     let inputParrafo = document.getElementById("inputParrafo");
